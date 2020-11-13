@@ -1,9 +1,11 @@
 :root
 {
     --BG-color: rgb(27, 27, 27);
+    --BG-color2: rgb(39, 39, 39);
     --santa-red: #A31123;
     --santa-red-alpha: rgba(163, 17, 34, 0.4);
     --santa-green: rgb(0, 114, 19);
+    --santa-white: rgb(255, 255, 255);
 }
 
 body
@@ -92,10 +94,32 @@ h1{
     color: #8f8f8f;
 }
 .feature-box i {
-    color: var(--santa-red);
+    color: var(--santa-white);
     margin-bottom: 1rem;
 }
 .feature-box i:hover
 {
-    color: var(--santa-green);
+    color: var(--santa-red);
+}
+
+#testimonials {
+    background-color:var(--BG-color2);
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#testimonials h2 {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
 }
