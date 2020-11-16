@@ -72,6 +72,10 @@ h1{
 {
     margin: 1% 1% 1% 0;
 }
+.mode-btn {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
 .btn-btn-lg {
     padding: 2%;
 }
