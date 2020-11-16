@@ -2,10 +2,14 @@
 {
     --BG-color: rgb(27, 27, 27);
     --BG-color2: rgb(39, 39, 39);
+    --BG-press-logos: lightgray;
+
     --santa-red: #A31123;
     --santa-red-alpha: rgba(163, 17, 34, 0.4);
     --santa-green: rgb(0, 114, 19);
     --santa-white: rgb(255, 255, 255);
+    
+    --text-color: rgb(255, 255, 255);
 }
 
 body
@@ -24,7 +28,7 @@ body
 {
     background-color: var(--santa-red);
     padding: 3% 15%;
-    color: white;
+    color: var(--text-color);
 }
 
 h1{
@@ -72,7 +76,6 @@ h1{
 }
 
 /*Features Section*/
-
 #features
 {
     padding: 3% 15%;
@@ -88,7 +91,7 @@ h1{
 .feature-box h3
 {
     font-family: 'Montserrat';
-    color: white;
+    color: var(--text-color);
 }
 .feature-box p {
     color: #8f8f8f;
@@ -104,15 +107,15 @@ h1{
 
 #testimonials {
     background-color:var(--BG-color2);
-    color: white;
+    color: var(--text-color);
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
 }
 
 #testimonials h2 {
     font-family: 'Montserrat';
-    color: white;
+    color: var(--text-color);
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -122,4 +125,64 @@ h1{
     height: 150px;
     border-radius: 50%;
     margin: 2rem;
+}
+
+.carousel-indicators {
+    top: 108%;
+}
+
+/*Press Section*/
+.press-logos {
+    background-color: var(--BG-press-logos);
+    text-align: center;
+    padding: 2rem;
+}
+
+.press-logo {
+    width: 15rem;
+    margin: 1.5;
+}
+
+/*Pricing Section*/
+#pricing {
+    font-family: 'Montserrat';
+    color: var(--text-color);
+    background-color: var(--BG-color2);
+    padding: 4rem;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 2rem;
+}
+
+.card-header {
+    background-color: var(--BG-color2);
+}
+
+.card-body {
+    color: black;
+}
+
+.btn-btn-lg {
+    padding: 2%;
+}
+
+/*Cta (Call to action) Section*/
+#cta {
+    font-family: 'Montserrat';
+    color: var(--text-color);
+    padding: 1.5rem;
+}
+
+#cta .btn-btn-sm {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+/*Footer*/
+#footer {
+    font-family: 'Montserrat';
+    color: var(--text-color);
+    padding: 1.5rem;
 }
